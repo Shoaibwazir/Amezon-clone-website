@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  padding-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 50px;
+  width: 130px;
+}
+.logo {
+  background-image: url("amazon-logo.jpg");
+  background-size: cover;
+  height: 50px;
+  width: 130px;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 2px solid white;
+}
+/*this is 2nd box of Nav Bar */
+.para1 {
+  font-size: 0.8rem;
+  color: #cccccc;
+  margin-left: 15px;
+}
+.para2 {
+  font-size: 1rem;
+  color: #cccccc;
+  margin-left: 5px;
+}
+.adrs-icon {
+  display: flex;
+}
+/* third box  */
+.nav-search {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  height: 38px;
+}
+.search-select {
+  background-color: #cccccc;
+  width: 50px;
+  height: 38px;
+  font-size: 1rem;
+  border: none;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+}
+.search-input {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+}
+.search-icon {
+  width: 50px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f1111;
+  border-radius: 0 5px 5px 0;
+  font-size: 1.3rem;
+}
+/*4TH BOX OF NAVBAR */
+.nav-flag {
+  height: 40px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.flag {
+  background-image: url(us.png);
+  background-size: cover;
+  height: 20px;
+  width: 35px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+.nav-signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-size: 0.1rem;
+  color: rgb(241, 240, 240);
+}
+.line2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+/* 5 th navigation bar*/
+.nav-cart i {
+  font-size: 1.7rem;
+}
+.nav-cart span {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+/* bar second */
+.bar {
+  height: 40px;
+  background-color: #232323;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.bar p {
+  display: inline;
+  margin-left: 20px;
+}
+.bar-menu {
+  margin-left: 20px;
+}
+
+/*hero section */
+.hero-section {
+  background-image: url(heroimage.jpg);
+  height: 350px;
+  background-size: cover;
+}
+/*product section */
+.box {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  width: 23%;
+  margin-bottom: 1rem;
+}
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-color: #ffd004;
+  justify-content: space-evenly;
+}
+.box-image {
+  height: 300px;
+  background-size: cover;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box-image:hover{
+    transform: scale(0,3);
+    cursor: pointer;
+}
+.box-data p {
+  color: #318c9c;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+.box-data h2 {
+  margin: 1rem;
+}
+/*bottom box */
+.bottom-box{
+    height: 150px;
+    border: 1px solid gray;
+    margin-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: .9rem;
+}
+.bottom-box p{
+    padding: 10px;
+}
+.blank{
+    height: 40px;
+}
+.bottom-box button{
+    width: 250px;
+    height: 35px;
+    border: 1px solid rgb(91, 64, 13);
+    cursor: pointer;
+    border-radius: 5px;
+    color: #0f1111;
+    font-weight: bold;
+    background-color: #ffd004;
+}
+.bottom-box a{
+    text-decoration: none;
+    color: #318c9c;
+
+}
+/*footer penal */
+.footer-penal1{
+    
+    height: 50px;
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.footer-penal1:hover{
+    background-color: gainsboro;
+    color: black;
+    font-weight: bold;
+}
+.footer-penal2{
+    background-color: #232323;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a {
+    display: block;
+    font-size: .9rem;
+    margin-top: 8px;
+    color: white;
+}
+ul{
+    margin-top: 30px;
+}
+ul p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
